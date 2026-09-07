@@ -1,0 +1,37 @@
+    <!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="../../"/>
+		<title>nullam - ITKP1011-Harjoitustyö</title>
+		<link rel="stylesheet" href="style.css">
+    	<script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+    	<script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+
+    <div id="wrapper">
+        <!--#include virtual="../../itkp1011.ssi"-->
+
+        <main>
+            <h1>nullam</h1>
+            <p>Suspendisse auctor, felis et tristique pellentesque, sapien felis scelerisque nulla, in condimentum justo orci sed sem. Praesent rutrum libero quis odio laoreet pellentesque. Cras commodo magna nec sodales auctor. Morbi a magna convallis, ultricies neque vitae, feugiat justo. Morbi dignissim tempor arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tempus, est id congue dignissim, odio arcu sodales ex, a ornare mauris nulla fringilla tortor. Vivamus nec lorem quis mauris egestas imperdiet. Ut consequat sed enim non cursus. Fusce non rutrum nisi, eu luctus nunc. Etiam vel pretium odio, id dignissim nibh. Fusce consequat sem nibh, at ullamcorper ipsum ornare et.</p>
+
+            <p>Vestibulum a porttitor lorem. Aliquam tincidunt nulla velit. Aliquam quis leo id nunc ullamcorper auctor ac in tellus. Ut id aliquam diam. In sollicitudin nibh est, consequat tempor dui vestibulum in. Maecenas purus ligula, finibus vel blandit eu, elementum non ex. Nulla ipsum magna, finibus id congue ornare, porttitor vel lorem. Etiam egestas ultricies urna. Integer est augue, eleifend ac ullamcorper id, egestas nec nulla. Pellentesque finibus velit quis metus vestibulum eleifend. Aliquam erat volutpat. Suspendisse accumsan posuere tortor et efficitur. Cras a magna eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+            <p>Nullam massa sem, sodales eu fermentum sed, pretium suscipit metus. Proin ex augue, faucibus ut finibus vitae, semper sed ipsum. Suspendisse ac condimentum massa, euismod sodales felis. Vivamus accumsan justo est, ut feugiat justo cursus sed. Maecenas imperdiet feugiat arcu in sagittis. Sed sodales mauris libero, ut interdum velit egestas quis. In bibendum, eros pharetra pretium semper, nisl risus mattis lorem, at euismod enim tortor vel erat. Phasellus nec arcu lectus. Etiam molestie venenatis felis in tincidunt. Nullam et viverra turpis.</p>
+
+            <p>Vestibulum sit amet ligula hendrerit, sagittis nisi sit amet, ullamcorper lectus. Etiam volutpat viverra urna nec ultricies. Aliquam neque sapien, ultricies in sagittis sed, malesuada in velit. In sed commodo orci. Mauris vel iaculis lacus. Donec eget iaculis sem. Nullam ante tortor, laoreet vel est et, vehicula cursus diam. Maecenas mattis tellus orci, eu bibendum nisi tempor vitae. Integer vel arcu lobortis, accumsan est at, porta nibh. Cras eleifend tempor felis, in molestie nunc vehicula eget. Duis eget lectus lobortis, sodales elit eu, tristique sapien. In pharetra nunc vel est cursus, id cursus eros imperdiet. Curabitur ut dapibus nunc. Mauris urna sapien, efficitur in lacinia et, malesuada sed diam. Aliquam erat volutpat.</p>
+
+            <p>Proin ac magna ac est iaculis accumsan. Etiam eleifend euismod ante et imperdiet. Integer nec condimentum quam. Donec iaculis massa eu varius gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur at sem eu libero vulputate bibendum. Suspendisse velit libero, scelerisque ut ligula sit amet, tristique eleifend velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In mattis orci eget vestibulum viverra. Aenean ut dignissim sapien. Mauris semper quam vel purus lobortis pellentesque. Phasellus malesuada dignissim sem, at tempus elit blandit sit amet.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="./">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

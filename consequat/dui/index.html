@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="./"/>
+		<title>dui - ITKP1011-Harjoitustyö</title>
+		<link rel="stylesheet" href="../../style.css">
+    	<script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+    	<script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+
+    <div id="wrapper">
+        <!--#include virtual="../itkp1011.ssi"-->
+        
+        <main class="dui_page">
+            <h1>dui - Taso 5</h1>
+
+            <p>Nulla pretium lacus non tempor elementum. Aliquam vitae lorem a turpis sodales euismod. Suspendisse dolor diam, tempor at laoreet sit amet, ultrices eu ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus dapibus venenatis vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et hendrerit nibh, in egestas dui. Sed dapibus nisl sed interdum finibus. Nunc vel dolor lorem. Etiam et erat nunc. Integer suscipit bibendum vehicula.</p>
+
+            <form action="https://appro.mit.jyu.fi/cgi-bin/view.cgi" method="post">
+                <fieldset>
+                    <legend>Henkilötiedot</legend>
+
+                    <p>
+                        <label for="nimi">Nimi</label>
+                        <input type="text" id="nimi" name="nimi" required="required" />
+                    </p>
+                    <p>
+                        <label for="katuosoite">Katuosoite</label>
+                        <input type="text" id="katuosoite" name="katuosoite" required="required" />
+                    </p>
+                    <p>
+                        <label for="postinumero">Postinumero</label>
+                        <input type="text" id="postinumero" name="postinumero" required="required" />
+                    </p>
+                    <p>
+                        <label for="postitoimipaikka">Postitoimipaikka</label>
+                        <input type="text" id="postitoimipaikka" name="postitoimipaikka" required="required" />
+                    </p>
+                    <p>
+                        <label for="sahkoposti">Sähköpostiosoite</label>
+                        <input type="email" id="sahkoposti" name="sahkoposti" required="required" />
+                    </p>
+                        <p class="radio_group">
+                            <label>Sukupuoli</label>
+                        </p>
+                        <p class="radio_item">
+                            <label>Mies <input type="radio" name="sukupuoli" value="mies" /></label>
+                        </p>
+                        <p class="radio_item">
+                            <label>Nainen <input type="radio" name="sukupuoli" value="nainen" /></label>
+                        </p>
+                        <p class="radio_item">
+                            <label>En kerro <input type="radio" name="sukupuoli" value="en kerro" checked="checked" /></label>
+                        </p>
+                        
+                        <div class="radio_item_gap">
+                            <p class="radio_item">
+                                <label for="syntymaaika">Syntymäaika</label>
+                                <input type="date" id="syntymaaika" name="syntymaaika" min="1900-01-01" max="2017-01-01" required="required" />
+                            </p>
+                            <p class="radio_item">
+                                <label for="kengan_numero">Kengän numero</label>
+                                <input type="number" id="kengan_numero" name="kengan_numero" min="20" max="60" value="40" required="required" />
+                            </p>
+                        </div>
+                </fieldset>
+                
+                <fieldset class="lisapalvelut_fieldset">
+                    <legend>Lisäpalvelut</legend>
+                    <p><label>Aamiainen <input type="checkbox" name="lisapalvelut" value="aamiainen" /></label></p>
+                    <p><label>Päivällinen <input type="checkbox" name="lisapalvelut" value="paivallinen" /></label></p>
+                    <p><label>Välipala <input type="checkbox" name="lisapalvelut" value="valipala" /></label></p>
+                    <p><label>Iltapala <input type="checkbox" name="lisapalvelut" value="iltapala" /></label></p>
+                    <p><label>Yöpala <input type="checkbox" name="lisapalvelut" value="yopala" /></label></p>
+                </fieldset>
+
+<p class="submit_row">
+    <input type="submit" value="Lähetä" name="laheta" />
+</p>
+            </form>
+
+            <p>Maecenas sit amet fermentum ligula. Proin metus turpis, condimentum ac aliquam tempor, pellentesque quis nulla. Nulla facilisi. Maecenas lacinia metus nec velit rhoncus condimentum. Nunc porta dui tortor, id viverra lorem gravida ut. Phasellus maximus, elit sit amet semper vestibulum, est lorem dignissim nibh, ut auctor massa odio ut justo. Integer consequat sagittis orci, eget venenatis tortor condimentum a. Phasellus eu diam urna. Nam auctor efficitur tortor, ac vestibulum enim lobortis id. Suspendisse lacinia urna ut rhoncus semper. Aenean id nisi vitae dolor ultrices condimentum. Suspendisse facilisis, tortor a sodales efficitur, lorem lacus consequat tellus, vitae interdum magna massa quis mauris. Etiam in consectetur mauris. Suspendisse iaculis ac sem non pretium. Aliquam ut nibh ex. Nullam in turpis sodales, fringilla eros vitae, fermentum magna.</p>
+
+            <p>In venenatis a quam quis consequat. Vestibulum et elit ultrices, mollis enim venenatis, vulputate dui. Nam pulvinar urna eu consectetur pretium. Aenean molestie sollicitudin tortor, non lacinia libero faucibus at. Nullam at luctus velit. Aliquam consectetur convallis tortor, facilisis porttitor sapien facilisis a. Nullam gravida enim vel leo sodales, ut vulputate ligula accumsan. Suspendisse auctor condimentum magna, sed mattis magna ullamcorper a.</p>
+            
+    <div class="ticket">
+        <div class="ticket_watermark">
+            <span>WEB</span>
+            <span>WEB</span>
+            <span>WEB</span>
+            <span>WEB</span>
+            <span>WEB</span>
+        </div>
+
+    <div class="ticket_content">
+        <div class="ticket_header">
+            <h2 class="ticket_title">Junalippu</h2>
+            <p class="ticket_type_bold">Perus</p>
+            <p class="ticket_type">Opiskelija</p>
+        </div>
+
+    <div class="ticket_info_text">
+        <p>Lippu on voimassa vain lippuun merkityllä junavuorolla.</p>
+        <p>Muutos: ennen junan lähtöä tai viim. 24 h lähdön</p>
+        <p>jälkeen (5€), ei hyvitystä halvempaan.</p>
+        <p>Peruutus: ennen junan lähtöä tai viim. 24 h</p>
+        <p>lähdön jälkeen (10€).</p>
+    </div>
+
+        <div class="ticket_body">
+            <div class="ticket_vertical_text">
+                Jyväskylä-Helsinki
+            </div>
+
+            <div class="ticket_main">
+                <p class="ticket_route">Jyväskylä-Helsinki</p>
+
+                <div class="ticket_row">
+                    <div class="ticket_col">
+                        <span class="ticket_label">Päivä</span>
+                        <span class="ticket_value"><strong>Su 01.01.2021</strong></span>
+                    </div>
+                    <div class="ticket_col">
+                        <span class="ticket_label">Lähtee klo</span>
+                        <span class="ticket_value"><strong>12.34</strong></span>
+                    </div>
+                    <div class="ticket_col">
+                        <span class="ticket_label">Saapuu klo</span>
+                        <span class="ticket_value"><strong>15.28</strong></span>
+                    </div>
+                </div>
+
+                <hr class="ticket_hr" />
+
+                <div class="ticket_row">
+                    <div class="ticket_col">
+                        <span class="ticket_label">Juna</span>
+                        <span class="ticket_value"><strong>Pikajuna</strong></span>
+                    </div>
+                    <div class="ticket_col">
+                        <span class="ticket_label">Numero</span>
+                        <span class="ticket_value"><strong>9876</strong></span>
+                    </div>
+                    <div class="ticket_col">
+                        <span class="ticket_label">Luokka</span>
+                        <span class="ticket_value"><strong>Eko</strong></span>
+                    </div>
+                </div>
+
+                <hr class="ticket_hr" />
+
+                <div class="ticket_qr_row">
+                    <div class="ticket_barcode_area">
+                        <span class="ticket_barcode_text">FOOBA====</span>
+                        <span class="ticket_order_label">Tilausnumero</span>
+                    </div>
+                    <img src="qrcode.svg" alt="QR-koodi" class="ticket_qr" />
+                </div>
+                
+                <div class="ticket_order_number_bottom">
+                    123456789012345
+                </div>
+
+                <hr class="ticket_hr" />
+
+                <div class="ticket_price_row">
+                    <strong class="ticket_price_label">Hinta</strong>
+                    <strong class="ticket_price_value">23,92 Euroa</strong>
+                </div>
+
+                <hr class="ticket_hr" />
+
+                <div class="ticket_tax_row">
+                    <div class="ticket_tax_col">
+                        <span class="ticket_tax_label">Alv</span>
+                        <span>9%</span>
+                    </div>
+                    <div class="ticket_tax_col">
+                        <span class="ticket_tax_label">Veroton</span>
+                        <span>21,94</span>
+                    </div>
+                    <div class="ticket_tax_col">
+                        <span class="ticket_tax_label">Vero</span>
+                        <span>1,98</span>
+                    </div>
+                    <div class="ticket_tax_col">
+                        <span class="ticket_tax_label">Verollinen</span>
+                        <span>23,92</span>
+                    </div>
+                </div>
+
+                <div class="ticket_footer_row">
+                    <div class="ticket_goodbye_box">
+                        <p class="ticket_goodbye"><strong>Hyvää matkaa!</strong></p>
+                        <p class="ticket_footer_num">061111</p>
+                    </div>
+                    <p class="ticket_footer_num ticket_footer_right">161554</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </main>
+    </div>
+
+    <footer>
+        <a href="../../">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

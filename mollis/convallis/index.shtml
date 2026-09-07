@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <base href="../../"/>
+		<title>convallis - ITKP1011-Harjoitustyö</title>
+		<link rel="stylesheet" href="style.css">
+    	<script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+    	<script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+
+    <div id="wrapper">
+
+        <!--#include virtual="../../itkp1011.ssi"-->
+
+        <main>
+            <h1>convallis</h1>
+
+            <p>Aenean mollis leo sed nulla dapibus, at tincidunt massa euismod. Nunc sit amet augue vestibulum, consequat felis et, gravida erat. Nunc egestas urna semper congue laoreet. Fusce eros augue, convallis nec porta quis, facilisis gravida libero. Nam consectetur fermentum risus, ut luctus nibh aliquet id. Morbi cursus sapien mauris, ut accumsan purus euismod a. Duis ut scelerisque lectus. Fusce sed lectus accumsan, convallis tellus in, molestie libero. Ut cursus eros elit, ut finibus risus faucibus ut.</p>
+
+            <p>Proin bibendum felis velit, eu auctor arcu efficitur id. Nunc dictum enim at quam malesuada, nec egestas nisl lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque hendrerit massa ac ex aliquam tempus non vitae est. Vestibulum vitae nibh fermentum, lacinia ex vitae, hendrerit lectus. Curabitur ac dolor sit amet felis ornare vestibulum. Nullam et lectus at dolor dapibus scelerisque a non eros. Curabitur congue imperdiet erat non varius. Aliquam quis lacus consequat, suscipit ex malesuada, pellentesque augue. In consequat, mauris id fringilla tristique, sapien justo pulvinar magna, sed dignissim nulla erat ultricies mauris. Suspendisse purus enim, hendrerit sed lobortis eget, auctor a enim. Nam volutpat lectus sed ante molestie, sed imperdiet mauris iaculis. Morbi dignissim, turpis id maximus venenatis, nisl leo venenatis eros, at rutrum augue dolor ac augue. Duis commodo, augue ut varius accumsan, magna enim tincidunt enim, id venenatis turpis tellus non sem. Vivamus ligula sapien, fringilla a vulputate auctor, lacinia id ex.</p>
+
+            <p>Donec dictum egestas arcu, sed venenatis lorem dapibus non. Fusce rhoncus, nunc quis fermentum eleifend, quam justo venenatis velit, at sodales lorem dui in dolor. Sed purus sapien, venenatis ut diam eget, auctor venenatis nibh. Integer condimentum posuere aliquam. Curabitur pharetra mattis ipsum nec porttitor. Suspendisse sagittis convallis commodo. Nulla condimentum facilisis arcu, eget varius nunc. Duis maximus lectus lectus. In fringilla, erat non convallis fringilla, nulla nulla interdum nunc, id consectetur dolor dolor eget urna. Sed porta orci id pellentesque tempus. Curabitur dapibus tempus elit. Quisque quam orci, scelerisque at facilisis vitae, lobortis ut ante. Donec elit enim, condimentum pellentesque placerat eget, pulvinar vitae nunc. Duis nec ante magna. Vestibulum fermentum lorem arcu, consequat varius nulla ultricies non. Mauris orci libero, varius hendrerit pharetra a, blandit non leo.</p>
+
+            <p>Vivamus porta ligula quis purus blandit placerat. Donec porta, lorem in lacinia bibendum, felis sem maximus nulla, egestas luctus ex arcu a dolor. Vivamus ullamcorper non nibh non pulvinar. Vivamus rutrum, ex id volutpat congue, lorem dui iaculis mauris, non fermentum diam massa sit amet neque. Fusce a enim laoreet, mattis magna eget, consectetur ex. Nam bibendum efficitur nisl sed tincidunt. Pellentesque dignissim lectus purus, quis faucibus nunc aliquet a. Aenean posuere consectetur ligula sit amet sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate sem in arcu convallis varius. Duis rhoncus metus eu leo pretium, eu ultrices dui sagittis. Vivamus eget urna venenatis, maximus leo quis, maximus risus. Mauris ut lacinia orci. Sed ut mi dignissim, finibus ipsum non, aliquet nibh.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="./">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

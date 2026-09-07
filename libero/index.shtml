@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <base href="../"/>
+		<title>libero - ITKP1011-Harjoitustyö</title>
+		<link rel="stylesheet" href="style.css">
+    	<script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+    	<script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+
+    <div id="wrapper">
+
+        <!--#include virtual="../itkp1011.ssi"-->
+
+        <main>
+            <h1>libero</h1>
+            <p>Aenean laoreet augue id urna lacinia, eu condimentum erat imperdiet. Cras mattis ipsum erat, eget mollis risus posuere sit amet. Fusce sed sapien luctus, elementum erat sed, placerat nisi. Cras placerat convallis augue, laoreet ultrices metus ornare ut. Sed lobortis ipsum velit, ac laoreet enim cursus eget. Suspendisse potenti. Cras libero purus, lacinia quis libero non, ullamcorper pulvinar ante. Mauris auctor pulvinar arcu, nec varius mauris iaculis et. Vivamus mauris ligula, tincidunt in viverra eu, finibus accumsan nunc. Mauris vel malesuada nunc, eu posuere risus.</p>
+            <p>Aenean a accumsan velit, non dignissim dui. Nunc feugiat euismod tempus. Sed scelerisque sem eu hendrerit placerat. Aliquam ut nibh condimentum quam luctus sollicitudin. Curabitur laoreet, lectus id iaculis bibendum, ligula augue congue est, et tincidunt neque odio eu arcu. Fusce faucibus diam eu aliquam sollicitudin. Mauris egestas sit amet nibh at pretium. Sed nisl nunc, mattis nec lectus non, pulvinar vehicula augue. Morbi vitae hendrerit libero. Vestibulum est metus, tempus vitae odio ac, consequat elementum justo. Aenean ac mattis arcu.</p>
+            <p>Etiam tempor pulvinar sollicitudin. Duis mollis ex erat, ac aliquet dui elementum at. Mauris varius, orci eget finibus rhoncus, eros dolor gravida ipsum, sed efficitur purus mauris at neque. Curabitur molestie leo quis metus vehicula mattis. In a ultrices elit. Nam eget risus et justo dapibus ultricies sed a felis. Suspendisse efficitur libero vel sapien vestibulum blandit. Pellentesque tristique mi ex, nec egestas ex aliquet non. Donec nec nulla euismod, dictum quam non, cursus tortor. Maecenas id erat et nibh semper pulvinar.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="./">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

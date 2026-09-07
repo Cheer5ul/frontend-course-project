@@ -1,0 +1,886 @@
+/*yhteiset tyylit#*/
+
+body {
+    font-family: Verdana, sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*ylävalikko*/
+.navbartop {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.4em 1em;
+    background-color: #CBEA87;
+    font-weight: bold;
+    color: #DDEAC9;
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbartop a{
+    border-left: 0.2em solid #DDEAC9;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+}
+
+/* Sivuvalikko */
+#sidenav {
+    background-color: #CBEA87;
+    min-width: 15em;
+    max-width: 18em;
+    min-height: 25em;
+    box-sizing: border-box;
+    font-weight: bold;
+    float: left;
+    margin: 1em 0.5em 0.1em 0.5em;
+}
+
+/* Alatunniste */
+footer {
+    background-color: #CBEA87;
+    padding: 1em 0.5em;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+/* kuva */
+#pict {
+    width: 32em;
+    max-width: 100%;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#pict_figure {
+    text-align: center;
+    display: inline-block;
+    margin: 1em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.special_layout .top_wrapper, .gallery figure a{
+    display: block;
+}
+
+.gallery img {
+    max-width: 16em;
+    max-height: 12.5em;
+    width: auto;
+    height: auto;
+    display: block;
+    border: 0.1em solid #ccc;
+}
+
+.gallery figcaption {
+    font-size: 0.95em;
+    color: #333;
+    margin-top: 0.3em;
+    font-weight: bold;
+}
+
+
+/* Erikoislayout */
+
+.special_layout header{
+    background-color: #CBEA87;
+    padding: 1em 0.5em;
+    flex-shrink: 0;
+}
+
+.special_layout .header_top a {
+    font-weight: bold;
+    border-left: 0.2em solid #DDEAC9;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+}
+
+.special_layout .header_top a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.special_layout .main_wrapper {
+    display: flex;
+    flex: 1;
+    gap: 0;
+}
+
+.special_layout .main_content {
+    flex: 1;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.special_layout .sidebar {
+    background-color: #CBEA87;
+    padding: 1em;
+    width: 16em;
+    flex-shrink: 0;
+    overflow-y: auto;
+    font-weight: bold;
+}
+
+.special_layout .sidebar ul,
+.special_layout .sidebar_mobile ul {
+    margin: 0;
+    padding-left: 1em;
+}
+
+.special_layout .video_place {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1em;
+    text-decoration: underline;
+    margin: 1.2em 0;
+    cursor: pointer;
+}
+
+.special_layout .header_top a:first-child,
+.navbartop a:first-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.special_layout .sidebar_mobile {
+    display: none;
+}
+
+/* Otsikko */
+h1 {
+    margin: 0.7em 0.5em 0.1em 0.5em;
+}
+
+/* Taulukko */
+table {
+    border: 0.2em solid #CBEA87;
+    border-collapse: collapse;
+    margin-left: 6em;
+    
+}
+
+
+td, th{
+    border: 0.2em solid #CBEA87;
+    text-align: center;
+    border-style: dotted;
+    width: 3em;
+    height: 1.5em;
+
+}
+
+iframe {
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+/* Lomake */
+
+form fieldset.lisapalvelut_fieldset {
+    margin-top: 0.3em;
+    margin-left: 6em;
+    max-width: 36em;
+    width: auto;
+}
+
+.ticket_footer_right,
+form fieldset.lisapalvelut_fieldset p {
+    text-align: right;
+}
+
+
+form p.radio_item {
+    text-align: right;
+    margin: 0;
+    overflow: hidden;
+}
+
+form label[for] {
+    text-align: left;
+}
+
+
+form p.radio_item label[for] {
+    float: left;
+    width: 8em;
+    display: block;
+    clear: left;
+}
+form p.radio_item input[type="date"] {
+    float: right;
+    display: block;
+    width: 8em;
+}
+form p.radio_item input[type="number"] {
+    float: right;
+    display: block;
+    width: 4em;
+}
+
+form p.radio_item label,
+form fieldset.lisapalvelut_fieldset label {
+    float: none;
+    width: auto;
+    clear: none;
+    display: inline;
+}
+
+form fieldset {
+    margin: 1em 0;
+    border: 0.1em solid #000;
+    display: block;
+    max-width: 26em;
+    width: auto;
+}
+
+
+form p,
+div.radio_item_gap {
+    margin: 0.5em 0;
+    overflow: hidden;
+}
+
+form label {
+    display: block;
+    float: left;
+    width: 12em;
+    clear: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"] {
+    display: block;
+    float: left;
+}
+
+
+
+form fieldset fieldset {
+    clear: both;
+}
+
+form p.submit_row {
+    margin-left: 6em;
+    max-width: 37.7em;
+    overflow: hidden;
+    text-align: right;
+}
+
+form input[type="submit"] {
+    clear: both;
+    display: inline-block;
+    margin-top: 0.5em;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    float: none;
+}
+
+.ticket {
+    position: absolute;
+    right: 16em;
+    top: 53em;
+    width: 24em;
+    max-width: 24em;
+    transform: rotate(10deg);
+    background-color: #ffffff;
+    background-image: url("consequat/dui/tile.jpg");
+    background-repeat: repeat;
+    background-size: 20em 20em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    box-shadow: none;   
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.ticket_watermark {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.ticket_watermark span {
+    font-family: Georgia, serif;
+    font-weight: 900;
+    font-size: 5em;
+    color: rgba(65, 204, 128, 0.6);
+    margin: 0;
+    letter-spacing: -0.125em;
+    transform-origin: center center;
+    transform: rotate(30deg);
+}
+
+.ticket_content {
+    position: relative;
+    z-index: 2;
+    padding: 1.25em 1.5625em;
+}
+
+.ticket_header {
+    text-align: center;
+    margin-bottom: 0.9375em;
+}
+
+.ticket_title {
+    font-size: 1.375em;
+    font-weight: bold;
+    margin: 0 0 0.3125em 0;
+    letter-spacing: 0.0625em;
+}
+
+.ticket_type_bold {
+    font-weight: bold;
+    font-size: 0.8125em;
+    margin: 0;
+}
+
+.ticket_type {
+    font-size: 0.8125em;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.ticket_info_text {
+    text-align: center;
+    font-size: 0.6875em;
+    margin-bottom: 0.9375em;
+}
+
+.ticket_info_text p {
+    margin: 0;
+}
+
+.ticket_body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.ticket_vertical_text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-weight: bold;
+    font-size: 1em;
+    border-left: 0.125em solid black;
+    border-right: 0.125em solid black;
+    padding: 0 0.3125em;
+    margin-right: 0.9375em;
+    margin-top: 3em;
+    letter-spacing: 0.0625em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dui_page {
+    min-height: 90em;
+}
+
+.ticket_main {
+    flex: 1;
+    min-width: 0;
+}
+
+.ticket_route {
+    font-size: 0.9375em;
+    font-weight: bold;
+    margin: 0 0 0.6667em 0;
+}
+
+.ticket_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3125em;
+}
+
+.ticket_label {
+    font-size: 0.75em;
+}
+
+.ticket_value {
+    font-size: 0.8125em;
+}
+
+.ticket_hr {
+    border: none;
+    border-top: 0.0625em solid black;
+    margin: 0.375em 0;
+}
+
+
+.ticket_qr_row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0.3125em 0 0 0; 
+    min-height: 5em;
+}
+
+.ticket_barcode_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ticket_order_label {
+    font-size: 0.6875em;
+}
+
+.ticket_barcode_text {
+    font-family: "Courier New", Courier, monospace, sans-serif;
+    font-size: 0.875em;
+    letter-spacing: 0.0625em;
+    margin-top: auto;
+}
+
+.ticket_order_number_bottom {
+    text-align: right;
+    width: 100%;
+    font-size: 0.75em;
+    margin-top: 0.125em;
+}
+
+.ticket_qr {
+    width: 4.6875em;
+    height: 4.6875em;
+    display: block;
+}
+
+.ticket_price_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3125em 0;
+}
+
+.ticket_price_label,
+.ticket_price_value {
+    font-size: 0.875em;
+}
+
+.ticket_tax_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0;
+}
+
+.ticket_tax_col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.6875em;
+}
+
+.ticket_tax_label {
+    font-weight: bold;
+    margin-bottom: 0.125em;
+}
+
+.ticket_footer_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0.9375em;
+    border-bottom: 0.0625em solid black;
+    padding-bottom: 0.3em;
+}
+
+.ticket_col,
+.ticket_goodbye_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket_goodbye {
+    margin: 0 0 0.3125em 0;
+    font-size: 0.875em;
+}
+
+.ticket_footer_num {
+    font-size: 0.75em;
+    margin: 0;
+}
+/*Tyyli mobiililaitteille*/
+@media (max-width: 600px) {
+
+    .ticket {
+        position: static;
+        margin: 1.25em 1.5em;
+        transform: rotate(0deg);
+        width: auto;
+        max-width: 100%;
+        box-shadow: none;
+    }
+
+    header {
+        order: 2; /* header tulee navbartopin alle */
+        flex: 1;        
+        min-width: 0;
+        padding-right: 0.2em;
+        margin-right: 0.3em;
+    }
+
+    #sidenav {
+        order: 1; /* sivuvalikko tulee vasemmalle */
+        float: none;
+        min-width: 0;
+        width: 48%;
+        flex: none;
+        overflow: hidden;
+        word-break: break-all;
+        min-height: unset;
+        max-height: unset;
+        margin: 0;
+        margin-top: 0.75em;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
+    }
+    
+    .special_layout .top_wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5em;
+        gap: 0.5em;   
+    }
+
+    #wrapper, #top_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+
+    #top_wrapper header {
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+
+    .special_layout body {
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .special_layout footer {
+        box-sizing: border-box;
+    }
+
+    .special_layout .main_wrapper {
+        flex-direction: column;
+    }
+
+    .special_layout header {
+        order: 2;
+        flex: 1;
+        background-color: #CBEA87;
+        padding: 0.5em;
+        margin: 0;
+        min-width: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .special_layout .header_top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3em;
+        padding: 0;
+        font-size: 0.85em;
+    }
+
+    .special_layout .sidebar {
+        display: none;
+    }
+
+    .special_layout .sidebar_mobile {
+        display: block;
+        background-color: #CBEA87;
+        padding: 0.2em;
+        font-weight: bold;
+        font-size: 0.85em;
+        flex-shrink: 0;
+        width: 45%;
+        box-sizing: border-box;
+        order: 1;
+    }
+
+    .special_layout .sidebar_mobile a {
+        word-break: break-all;
+    }
+
+    .special_layout .header_top a {
+    border-left: none;
+    margin-left: 1em;
+    padding-left: 0;
+    display: list-item;
+    list-style-type: disc;
+    word-break: break-all;
+    }
+    .special_layout .header_top a:first-child {
+    border-left: 0;
+    margin-left: 1em;
+    padding-left: 0;
+    }
+
+    .special_layout .header_top div:nth-child(2), .special_layout form {
+    display: flex;
+    width: 100%;
+    gap: 0.3em;
+    box-sizing: border-box;
+    }
+
+    .special_layout .search_box {
+        flex: 1;
+        min-width: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .special_layout .search_btn {
+        margin: 0;
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    #sidenav ul {
+        padding-left: 1.2em;
+        
+    }
+
+    main {
+        order: 3; 
+        width: 100%;
+        flex-basis: 100%; /* pääsisältö tulee navbartopin alle */
+    }
+
+    .navbartop {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 0.5em;
+        box-sizing: border-box;
+        padding-top: 1em;
+        margin-top: 1em;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+        font-size: 0.75em;
+        height: 50%;
+        min-height: 8rem;
+        word-break: break-all;
+        font-weight: normal;
+    }
+
+    .navbartop a {
+        border-left: none;
+        padding-left: 0;
+        display: list-item;
+        list-style-type: disc;
+        list-style-position: outside;
+        margin-left: 1em; 
+        
+    }
+
+    iframe,
+    .special_layout .video_youtube {
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .special_layout iframe.video_place {
+        width: 85% !important;
+        margin: 0 auto !important;
+        display: block;
+    }
+
+    #top_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    }
+
+    table, h1 {
+    margin-left: 0;
+    }
+
+    .navbartop a:first-child{
+            margin-left: 1em;
+    }
+
+    form fieldset {
+        width: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+        margin: 0.5em 0;
+    }
+
+    form fieldset.lisapalvelut_fieldset {
+        margin-left: 0;
+        width: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    form label {
+        width: auto;
+        float: none;
+        display: block;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="date"],
+    form input[type="number"] {
+        float: none;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    form p.radio_item label[for],
+    form p.radio_item input[type="date"],
+    form p.radio_item input[type="number"] {
+        float: none;
+        display: block;
+        width: auto;
+    }
+
+    form input[type="submit"] {
+        margin-left: 0;
+        display: block;
+    }
+
+    form p.submit_row {
+    margin-left: 0;
+    max-width: 100%;
+    }
+    form input[type="submit"] {
+        margin-left: 0;
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 601px) {
+    .special_layout .top_wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .special_layout header {
+        flex: 1;
+        flex-shrink: 1;
+        min-width: 0;
+    }
+
+    .special_layout .header_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 0.6em; 
+    }
+
+    .special_layout .header_top > div:first-child {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        align-items: center;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .special_layout header form {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+        white-space: nowrap;
+    }
+}
+
+@media print {
+    #top_wrapper, .navbartop, #sidenav, header, .special_layout .sidebar, .special_layout .sidebar_mobile, footer {
+        display: none;
+    }
+
+    .special_layout .top_wrapper,
+    .special_layout .main_wrapper {
+        display: block;
+    }
+
+    .special_layout .main_content {
+        padding: 0;
+    }
+
+
+    body {
+    font-family: "Times New Roman", serif;
+    margin-top: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    margin-bottom: 0.5cm;
+    page-break-before: always;
+    page-break-inside: avoid;
+    page-break-after: always;
+    }
+}

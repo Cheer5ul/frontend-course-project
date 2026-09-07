@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <base href="../"/>
+		<title>mollis - ITKP1011-Harjoitustyö</title>
+		<link rel="stylesheet" href="style.css">
+        <script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+        <script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+
+    <div id="wrapper">
+
+        <!--#include virtual="../itkp1011.ssi"-->
+
+        <main>
+            <h1>mollis</h1>
+
+            <p>Nunc quis odio placerat, auctor elit sed, rutrum enim. Suspendisse egestas, sem id suscipit porta, arcu tellus interdum ante, quis bibendum ex ante at nunc. Praesent commodo tortor quis tellus bibendum efficitur. Maecenas ultrices commodo dapibus. Nulla imperdiet enim eu elit ultricies congue. Quisque purus leo, egestas id nisl quis, aliquet porttitor tellus. Suspendisse ornare nec magna in vestibulum. Suspendisse et neque et augue euismod venenatis eget eu velit. Integer eu dictum nibh. Etiam ac arcu consequat, ornare odio quis, commodo tellus.</p>
+
+            <p>Integer eu nisl nec odio egestas ultrices ac eu ipsum. Fusce et suscipit est. Morbi turpis magna, consequat id finibus at, scelerisque sed sem. Suspendisse id mollis elit. Sed malesuada molestie lectus quis elementum. Curabitur vel massa eu magna tempor pharetra. Vestibulum scelerisque est id est ornare, eget dignissim mauris gravida. Suspendisse in augue ante. Praesent lobortis nisl a tortor pulvinar facilisis. Morbi non diam sem. Vivamus imperdiet est enim, quis posuere augue scelerisque sed. Ut molestie eros nec velit tempus eleifend. Donec dapibus nunc mauris, ultrices fermentum nisl auctor eget. Nam ex leo, feugiat condimentum tortor a, placerat efficitur lorem.</p>
+
+            <p>Etiam mi diam, iaculis eu felis vel, fringilla elementum lacus. Vestibulum placerat mauris id mollis tristique. Morbi a mi tristique, maximus tortor at, efficitur urna. Ut mollis pellentesque venenatis. Donec eu sagittis mauris. Etiam ac faucibus tortor. Quisque nibh tortor, rhoncus a ipsum vel, pharetra euismod purus.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="./">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

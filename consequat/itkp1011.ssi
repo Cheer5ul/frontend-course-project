@@ -1,0 +1,33 @@
+    <div id="top_wrapper">
+            <header>
+                <nav class="navbartop">
+                    <a href="https://www.jyu.fi/">Jyväskylän yliopisto</a>
+                    <a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a>
+                    <a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a>
+                    <a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a>
+                </nav>
+            </header>
+        
+        
+                <nav id="sidenav">
+                    <ul>
+                        <li><a href="../">consequat</a>
+                            <ul>
+                                <li><a href="../ac/">ac</a></li>
+                                <li><a href="../dui/">dui</a></li>
+                                <li><a href="../tincidunt/">tincidunt</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../../gravida/">gravida</a></li>
+                        <li><a href="../../libero/">libero</a></li>
+                        <li><a href="../../mollis/">mollis</a>
+                            <ul>
+                                <li><a href="../../mollis/convallis/">convallis</a></li>
+                                <li><a href="../../mollis/maecenas/">maecenas</a></li>
+                                <li><a href="../../mollis/nullam/">nullam</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                
+                </nav>
+    </div>

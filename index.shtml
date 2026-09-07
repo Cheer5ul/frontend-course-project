@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" >
+		<title>ITKP1011-Harjoitustyö</title>
+        <base href="./" />
+		<link rel="stylesheet" href="style.css">
+        <script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+        <script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+
+<div id="wrapper">
+        
+        <!--#include virtual="itkp1011.ssi"-->
+                <main>
+                    <h1>ITKP1011-Harjoitustyö</h1>
+        
+                    <p>In in nibh ut massa faucibus porttitor et quis lacus. Nunc id odio lectus. Ut sed ex in diam interdum tempor. Duis scelerisque augue nulla, cursus pretium risus porta vitae. Nullam in nunc metus. Curabitur pretium magna sit amet erat congue, id tempus purus gravida. Aliquam sed pretium enim. In nec massa eu nisl pharetra tristique quis nec justo. Nulla fermentum nulla lectus, non porttitor diam accumsan commodo. Integer volutpat efficitur odio. Pellentesque fermentum ex sit amet orci mollis euismod.</p>
+        
+                    <p>Maecenas in malesuada tortor. Proin facilisis ipsum facilisis, varius lorem sit amet, sagittis mi. Donec id purus urna. Duis non dolor eget lacus volutpat finibus vel non mauris. Aliquam libero nisl, efficitur at mauris vitae, mattis imperdiet elit. Duis scelerisque dolor ut feugiat molestie. Mauris eget justo in turpis auctor commodo nec vitae neque. Nulla dolor velit, eleifend sed accumsan ut, suscipit non turpis. Duis eu posuere turpis. Nulla facilisi. Pellentesque risus tellus, varius non molestie in, sollicitudin ut est. Ut at vulputate ex, at vestibulum nisi. Suspendisse dignissim finibus posuere. Cras vitae ornare odio, quis egestas nibh. Vivamus dui nulla, dapibus sed vehicula vel, egestas ac ipsum.</p>
+        
+                    <p>Proin ultricies justo vel odio condimentum, imperdiet efficitur urna efficitur. Aliquam erat volutpat. Sed hendrerit elit in consectetur rhoncus. Morbi ex est, consequat at accumsan vel, vestibulum vitae arcu. Duis enim odio, tincidunt mollis vulputate sed, lacinia nec felis. Vestibulum placerat nulla enim, a commodo lectus laoreet id. Nunc condimentum tortor vitae magna facilisis, eu iaculis lacus tempor. Phasellus vel luctus magna. Donec id est vulputate, pulvinar felis a, facilisis tortor. Integer iaculis sem libero, et volutpat nulla vulputate ac. Proin ac vulputate nunc. Nulla semper lorem nunc, eu dignissim est laoreet in. Pellentesque nec lectus eget nisl ultrices ornare in at ipsum. Cras facilisis arcu ac ex pretium lacinia a id dolor. Proin nec dui urna.</p>
+        
+                    <p>Nulla facilisi. Suspendisse sagittis lectus id est pretium semper. Aliquam nisi ex, feugiat quis libero ut, pulvinar pharetra ante. Etiam non nibh sodales orci accumsan aliquet sed ac nunc. Aliquam tincidunt, lectus eget hendrerit tempor, augue augue condimentum eros, id venenatis nisi purus ut mi. Nunc pellentesque, libero sit amet rutrum cursus, ex tellus mattis lorem, et congue urna nisl in augue. Cras eget ipsum at nulla tempor aliquam id rhoncus urna. Donec arcu sapien, imperdiet vitae rhoncus id, malesuada in lacus. Vivamus arcu ipsum, interdum sed turpis feugiat, molestie consectetur felis.</p>
+        
+                    <figure id="pict_figure">
+                        <a href="etusivu1_large.jpg">
+                            <img id="pict" src="etusivu1.jpg" alt="etusivu1">
+                        </a>
+                        <figcaption>etusivu 1</figcaption>
+                    </figure>   
+        
+                    <p>Sed iaculis justo arcu, eget vehicula magna tempus nec. Proin pharetra sodales leo sed viverra. Pellentesque vel leo leo. Nunc ante metus, ornare a augue id, rutrum elementum justo. Vivamus rhoncus nisi et augue ullamcorper congue. In consectetur quam a dolor suscipit, sit amet efficitur enim fringilla. Curabitur molestie vitae risus at vehicula. Aliquam nec nibh quis enim eleifend rhoncus. Aenean varius, lacus consequat tempor laoreet, mauris lorem sagittis leo, eget tempus metus nisi a ipsum. Proin eget facilisis ante.</p>
+        
+                    <p>Morbi eu ipsum sit amet urna faucibus suscipit. Nullam tempor, lacus eu vulputate volutpat, enim justo aliquam mi, at finibus lorem tortor vitae magna. Aenean sem nulla, dignissim ut enim ut, faucibus molestie leo. Vestibulum dictum commodo metus, vitae bibendum eros consectetur eget. In sem magna, dignissim nec tincidunt vitae, porta ut urna. Nulla nulla justo, euismod id tempor sit amet, malesuada id lacus. Vestibulum elit turpis, interdum at tempor vitae, egestas at ipsum. Mauris aliquam odio quis volutpat eleifend. Donec interdum, tellus eu laoreet tristique, odio est egestas lacus, a viverra felis est ut turpis. Sed lacus ligula, varius ut metus a, porta hendrerit dui. Donec eget sodales massa, eget aliquet urna. Curabitur elit erat, efficitur ac sodales vel, fermentum et turpis. Phasellus convallis cursus mauris, ut pellentesque mi finibus id. Ut venenatis pellentesque libero, sit amet euismod turpis ullamcorper a. Phasellus cursus nibh in nulla porttitor, at tincidunt orci hendrerit.</p>
+                </main>
+</div>
+
+    <footer>
+        <a href="./">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

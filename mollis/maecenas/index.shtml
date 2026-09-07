@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <base href="../../"/>
+		<title>maecenas - ITKP1011-Harjoitustyö</title>
+		<link rel="stylesheet" href="style.css">
+    	<script src="https://appro.mit.jyu.fi/tools/htmlinspector/html-inspector.js"></script> 
+    	<script src="https://appro.mit.jyu.fi/tools/itkp1011/itkp1011.js"></script> 
+    </head>
+<body>
+    <div id="wrapper">
+        <!--#include virtual="../../itkp1011.ssi"-->
+
+        <main>
+            <h1>maecenas</h1>
+
+            <p>Ut scelerisque leo in sem euismod consectetur. Donec porttitor pharetra velit, a lacinia quam cursus sed. Curabitur molestie et odio at sodales. Sed suscipit mi a arcu dignissim feugiat. Sed lectus dolor, scelerisque pretium mi eget, rutrum cursus sem. Integer ut urna vel elit vehicula pretium vel a massa. Vestibulum suscipit urna vitae finibus laoreet. Mauris auctor magna sed neque cursus placerat. Nullam neque leo, ultrices ut ligula ut, ultrices viverra justo. Nulla placerat mollis lacus, non laoreet metus auctor vitae. Nulla iaculis leo ut ligula aliquet, ac accumsan est maximus. Maecenas at tortor ante. Morbi et nisi velit. Nulla vehicula nibh non placerat aliquet. Donec auctor vel leo venenatis tincidunt.</p>
+
+            <p>Vestibulum augue risus, eleifend eu convallis eget, facilisis faucibus elit. Maecenas tincidunt nec erat at congue. Nulla facilisi. Quisque malesuada dui sit amet lectus ultricies efficitur. Vestibulum pellentesque massa sem. Mauris ultrices volutpat augue. Vestibulum non nulla arcu. Nullam fermentum orci sed tempus elementum. Fusce non sagittis elit.</p>
+
+            <p>Ut ut dapibus ligula. Integer rhoncus rutrum magna, euismod cursus turpis gravida id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer aliquam ante et ex tristique, sed ultricies odio dictum. Vestibulum eget rutrum leo. Sed ex nulla, lobortis ac enim tempus, commodo lacinia sem. Nullam mollis libero sed velit porttitor interdum. Curabitur lacinia aliquet ligula, vel tincidunt dui congue vitae. Phasellus malesuada ullamcorper nulla nec iaculis. Curabitur accumsan arcu vitae dui molestie commodo. Nullam mollis faucibus justo vel sagittis. Praesent pretium ante vitae diam sagittis, nec ornare augue ultricies. Suspendisse ac sollicitudin sapien, a ultrices ipsum. Cras quis augue in nulla vulputate porta vitae nec turpis.</p>
+
+            <p>Suspendisse nec ex sit amet ante facilisis convallis. Fusce sit amet varius urna, at eleifend quam. Mauris a ultrices neque. Vestibulum fermentum erat id massa tempor venenatis. Ut blandit, dolor eget feugiat mattis, risus tellus faucibus mi, sed laoreet ex nunc sed erat. Vestibulum eu ipsum vitae mauris rhoncus facilisis eget a augue. Sed nunc magna, pulvinar at accumsan sed, pellentesque nec odio. Etiam vestibulum ornare mattis. Curabitur vitae pharetra ante. Morbi mi purus, dapibus vel libero a, sodales ultricies nisl. Praesent hendrerit porttitor metus. Curabitur erat metus, eleifend id purus tempor, gravida interdum justo. Sed commodo luctus aliquet. Fusce dictum placerat ultricies. Nulla bibendum ipsum in augue luctus suscipit.</p>
+
+            <p>Proin eu ullamcorper odio, ut condimentum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque non massa mattis, venenatis lectus dignissim, ornare arcu. Praesent pretium felis enim, vitae hendrerit orci sollicitudin in. Pellentesque consectetur, tellus nec pulvinar sollicitudin, dolor velit pellentesque tortor, et feugiat diam tortor vel velit. Sed non mi a mauris aliquet feugiat. Nam eu lorem justo. Morbi tincidunt sagittis sem, vulputate accumsan quam euismod non. Suspendisse venenatis ante sem, eu luctus mauris efficitur id. Fusce commodo sit amet eros id eleifend. Suspendisse potenti. Cras accumsan ultricies faucibus. Morbi feugiat vestibulum eros facilisis semper. Curabitur malesuada faucibus mauris. Curabitur sed quam feugiat, tincidunt mi et, pellentesque turpis. Donec vel urna interdum elit ultricies vestibulum.</p>
+        </main>
+    </div>
+
+    <footer>
+        <a href="./">ITKP1011 Harjoitustyö</a>
+        <span>© Yurii Bablumian</span>
+    </footer>
+
+</body>
+</html>

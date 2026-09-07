@@ -21,8 +21,6 @@ The project is an independent student implementation based on the course assignm
 - Course-required navigation and page structure
 
 ## 🖼️ Screenshots
-Example:
-
 ![Desktop view](docs/desktop.png)
 ![Mobile view](docs/mobile.png)
 ![Print view](docs/print.png)
